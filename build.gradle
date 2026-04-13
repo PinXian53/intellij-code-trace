@@ -33,7 +33,7 @@ intellij {
 tasks {
     patchPluginXml {
         sinceBuild.set("232")
-        //untilBuild.set("253.*")
+        untilBuild.set("261.*")
         changeNotes.set(file("pluginChanges.html").getText('UTF-8'))
     }
 
